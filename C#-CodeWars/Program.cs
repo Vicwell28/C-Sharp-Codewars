@@ -1,4 +1,6 @@
-﻿using System;
+﻿using C__CodeWars.Fundamentals;
+using System;
+using System.Collections;
 using System.Linq;
 
 
@@ -22,10 +24,32 @@ namespace C__CodeWars
 			//FindNeedleMap(new object[] { '3', "123124234", null, "needle", "world", "hay", 2, '3', true, false });
 
 
-			Console.WriteLine(Remove_char("eloquent"));
+			//Console.WriteLine(Remove_char("eloquent"));
 
-			Console.WriteLine(FindAverage(new double[] { 17, 16, 16, 16, 16, 15, 17, 17, 15, 5, 17, 17, 16 }));
-        }
+			//Console.WriteLine(FindAverage(new double[] { 17, 16, 16, 16, 16, 15, 17, 17, 15, 5, 17, 17, 16 }));
+
+			//Console.WriteLine(CalculateBMI.Bmi(80, 1.80));
+			//Console.WriteLine(CalculateBMI.Bmi(100, 1.80));
+			//Console.WriteLine(CalculateBMI.Bmi(200, 1.80));
+			//Console.WriteLine(CalculateBMI.Bmi(40, 1.80));
+
+			
+
+			int[] numeros = ReversedSequence.ReverseSeq(5);
+
+			// Obtener un enumerador utilizando la interfaz IEnumerable
+			//IEnumerable enumerable = numeros;
+			//IEnumerator enumerator = enumerable.GetEnumerator();
+
+			//// Iterar sobre los elementos utilizando el enumerador
+			//while (enumerator.MoveNext())
+			//{
+			//	int elemento = (int)enumerator.Current;
+			//	Console.WriteLine(elemento);
+			//}
+
+			Console.WriteLine(DoubleChar.doubleChar("Vic"));
+		}
 
 
 		//Are You Playing Banjo?

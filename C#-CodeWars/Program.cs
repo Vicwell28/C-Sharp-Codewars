@@ -33,9 +33,9 @@ namespace C__CodeWars
 			//Console.WriteLine(CalculateBMI.Bmi(200, 1.80));
 			//Console.WriteLine(CalculateBMI.Bmi(40, 1.80));
 
-			
 
-			int[] numeros = ReversedSequence.ReverseSeq(5);
+
+			//int[] numeros = ReversedSequence.ReverseSeq(5);
 
 			// Obtener un enumerador utilizando la interfaz IEnumerable
 			//IEnumerable enumerable = numeros;
@@ -48,7 +48,17 @@ namespace C__CodeWars
 			//	Console.WriteLine(elemento);
 			//}
 
-			Console.WriteLine(DoubleChar.doubleChar("Vic"));
+			//Console.WriteLine(DoubleChar.doubleChar("Vic"));
+
+
+
+			//Console.WriteLine(ConvertAStringToAnArray.convertAStringToAnArray("Hola hoal hOla hoLa"));
+
+
+			//Array.ForEach(ConvertAStringToAnArray.convertAStringToAnArray("Hola hoal hOla hoLa"), Console.WriteLine);
+
+
+			Console.WriteLine(NumberOfPeopleInTheBus.Number(new List<int[]>() { new[] { 10, 0 }, new[] { 3, 5 }, new[] { 5, 8 } }));
 		}
 
 
@@ -180,7 +190,7 @@ namespace C__CodeWars
 
 			for (int i = 0; i < array.Length; i++)
 			{
-				total += array[i]; 
+				total += array[i];
 			}
 
 			total = total / array.Length;
@@ -193,7 +203,7 @@ namespace C__CodeWars
 
 		public static string boolToWord(bool word)
 		{
-			return word ? "Yes" : "No"; 
+			return word ? "Yes" : "No";
 		}
 
 		/*
@@ -211,7 +221,7 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
 
 		public string dnaToRna(string dna)
 		{
-			return dna.Replace('T', 'U'); 
+			return dna.Replace('T', 'U');
 		}
 	}
 }

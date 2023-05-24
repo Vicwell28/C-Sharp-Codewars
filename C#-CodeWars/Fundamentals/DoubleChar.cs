@@ -18,14 +18,6 @@ namespace C__CodeWars.Fundamentals
 			Good Luck!
 		 */
 
-		public static string doubleChar(string s) {
-
-			string res = string.Join("", s.Select(x => $"{x}{x}"));
-
-			Console.WriteLine(res);
-
-
-            return ""; 
-		}
+		public static string doubleChar(string s) => string.Join("", s.Select(x => $"{x}{x}"));
 	}
 }

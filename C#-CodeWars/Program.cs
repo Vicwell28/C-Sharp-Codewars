@@ -58,7 +58,25 @@ namespace C__CodeWars
 			//Array.ForEach(ConvertAStringToAnArray.convertAStringToAnArray("Hola hoal hOla hoLa"), Console.WriteLine);
 
 
-			Console.WriteLine(NumberOfPeopleInTheBus.Number(new List<int[]>() { new[] { 10, 0 }, new[] { 3, 5 }, new[] { 5, 8 } }));
+			//Console.WriteLine(NumberOfPeopleInTheBus.Number(new List<int[]>() { new[] { 10, 0 }, new[] { 3, 5 }, new[] { 5, 8 } }));
+
+
+			//Console.WriteLine(ReverseWords.reverseWords("Hello word"));
+
+			//Console.WriteLine(SumArrays.sumArrays(new double[] { 1, 5.2, 4, 0, -1 }));
+
+
+			//Console.WriteLine(BinaryAddition.AddBinary(10, 10));
+
+			//Console.WriteLine(BinaryAddition.AddBinary(1, 1));
+
+			//Console.WriteLine(BinaryAddition.AddBinary(5, 9));
+
+			//Console.WriteLine(BinaryAddition.AddBinary(10, 1));
+
+			//OnesZeros.onesZeros(new int[] {1, 0, 0, 1});
+
+			CenturyFromYear.СenturyFromYear(1705);
 		}
 
 

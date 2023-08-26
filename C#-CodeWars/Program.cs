@@ -1,6 +1,7 @@
 ﻿using C__CodeWars.Fundamentals;
 using System;
 using System.Collections;
+using System.Diagnostics;
 using System.Linq;
 
 
@@ -76,7 +77,10 @@ namespace C__CodeWars
 
 			//OnesZeros.onesZeros(new int[] {1, 0, 0, 1});
 
-			CenturyFromYear.СenturyFromYear(1705);
+			//CenturyFromYear.СenturyFromYear(1705);
+			Console.WriteLine("QRTYPOASDFGHKLZXCVBNM");
+			Console.WriteLine(Persist.Persistence(39));
+			Console.WriteLine(Persist.Persistence(4));
 		}
 
 

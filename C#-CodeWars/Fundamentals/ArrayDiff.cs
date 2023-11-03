@@ -55,5 +55,69 @@ namespace C__CodeWars.Fundamentals
 			);
 		}
 
+		public int GetSum(int a, int b)
+		{
+			int min = Math.Min(a, b);
+			int max = Math.Max(a, b);
+			return Enumerable.Range(min, max - min + 1).Sum();
+		}
+
+		public static string Longest(string s1, string s2)
+		{
+			var combined = s1 + s2;
+			var uniqueChars = new HashSet<char>(combined);
+			var sortedChars = uniqueChars.OrderBy(c => c);
+			return string.Concat(sortedChars);
+		}
+
+		public static int Divisors(int n)
+		{
+			int num = 0;
+
+			for (int i = 1; i <= n; i++)
+			{
+				if (n % i == 0) { num++; }
+			}
+
+			return num;
+		}
+
+		public static int[] DeleteNth(int[] arr, int x)
+		{
+			arr.Where((num, idx) =>
+			{
+				if (arr.Skip(idx + 1).Count(it => it == num) > x) return false;
+
+				return true;
+			});
+
+			return arr;
+		}
+
+		public static int[] minMax(int[] lst)
+		{
+			var min = lst.Min();
+			var max = lst.Max();
+
+			return new[] { min, max };
+		}
+
+
+		public static string HowMuchILoveYou(int nb_petals)
+		{
+			var phrases = new List<string>()
+			{
+				"I love you",
+				"a little",
+				"a lot",
+				"passionately",
+				"madly",
+				"not at all"
+			};
+
+			int index = (nb_petals - 1) % phrases.Count;
+			return phrases[index];
+		}
+
 	}
 }
